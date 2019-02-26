@@ -1,0 +1,250 @@
+@charset "ISO-8859-1";
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
+body {
+	background-image: url("https://associationsnow.com/wp-content/uploads/2013/09/0918_charity-800x480.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.topnav {
+    background-color: #808080;
+    overflow: hidden;
+}
+
+.footer {
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #808080;
+   color: #6E2C00;
+   text-align: center;
+}
+
+
+
+p.one {
+
+    font-color: #ff8040;
+    text-align: center;
+    font-size: 50px;
+}
+p.two {
+
+    font-color: #FAAC58;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+p.three {
+
+    font-color: #FAAC58;
+    text-align: center;
+    font-size: 25px;
+}
+a:link, a:visited {
+    background-color: #800000;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  	float:none;
+  	border: none;
+  	
+}
+
+a:hover, a:active {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a.one{
+	background-color:#808080 ;
+	color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  	float:right;
+  	border: none;
+  	font-size: 25px;
+	
+}
+
+a.charity{
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 49px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 700;
+	line-height: 49px;
+	background-color: #808080;
+	color: #C0392B;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  	float:right;
+  	border: none;
+  	font-size: 50px;
+	
+}
+
+form.one {
+    display: inline-block;
+    text-align: center;
+    
+    
+} 
+form.two {
+    display: inline-block;
+    text-align: center;
+    
+    
+} 
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #808080}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #800000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+.login {
+     background:none!important;
+     color:inherit;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #408080;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/* -------------------- Page Styles (not required) */
+div { margin: 20px; }
+
+
+.troublebutton{
+	background-color: #800000;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 180px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    
+}
+
+#mainselection select {
+   border: 0;
+   color: #EEE;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 378px;
+   *width: 350px;
+   *background: #c0c0c0;
+   -webkit-appearance: none;
+}
+
+#mainselection {
+   overflow:hidden;
+   width:350px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: #58B14C url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
+}
+
+/* About us page styling */
+ol.c {
+	  
+    list-style-type: upper-roman;
+}
+
+.inputfield{
+
+height:50px;
+width: 750px;
+
+}
